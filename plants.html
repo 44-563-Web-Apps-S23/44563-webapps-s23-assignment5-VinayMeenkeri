@@ -2,9 +2,7 @@
 <html lang="en">
 <head>
   <title>Plants information</title>
-  <h2>
-    Plants by Vinay Meenkeri
-  </h2>
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -16,6 +14,39 @@
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 
 </head>
+<body>
+  <h2>
+    Plants by Vinay Meenkeri
+  </h2>
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          
+            <a class="navbar-brand" href="plants.html">Interesting Plants</a>
+            <button button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#plantId"
+                aria-controls="plantId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="plantId">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-link active"><a href="plants.html">Plants</a>
+
+                    </li>
+                    <li class="nav-link active"><a href="basic.html"> Basic</a>
+
+                    </li>
+                    <li class="nav-link active"><a href="advanced.html">
+                            Advanced
+                        </a>
+
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</div>
 
 <div class="container">
   <div class="row">
@@ -43,16 +74,16 @@
   the alignment of the divs switches from horizontal to vertical.
 </p>
 
-<div>
-  <img src="Moneyplant.jpg" class="img-fluid" height="100" width="80" alt="Moneyplant">
-  <img src="Epimedium.jpg" class="img-fluid" height="120" width="80" alt="Epimedium">
-  <img src="Euphorbia.jpg" class="img-fluid" height="100" width="80" alt="Euphorbia">
+<div class="container">
+  <img src="Moneyplant.jpg" class="img-fluid" height="350" width="350" alt="Moneyplant">
+  <img src="Epimedium.jpg" class="img-fluid" height="350" width="350" alt="Epimedium">
+  <img src="Euphorbia.jpg" class="img-fluid" height="350" width="350" alt="Euphorbia">
 </div>
 
-<div>
-  <img src="Moneyplant.jpg" class="img-thumbnail" height="100" width="80" alt="Moneyplant">
-  <img src="Epimedium.jpg" class="img-thumbnail" height="120" width="80" alt="Epimedium">
-  <img src="Euphorbia.jpg" class="img-thumbnail" height="100" width="80" alt="Euphorbia">
+<div class="container">
+  <img src="Moneyplant.jpg" class="img-thumbnail" height="350" width="350" alt="Moneyplant">
+  <img src="Epimedium.jpg" class="img-thumbnail" height="350" width="350" alt="Epimedium">
+  <img src="Euphorbia.jpg" class="img-thumbnail" height="350" width="350" alt="Euphorbia">
 </div>
 
 <table class="table table-striped table-hover table-bordered caption-top caption-top">
@@ -110,24 +141,33 @@
   </tbody>
 </table>
 
-<Buttons>
+<label >Letter Buttons</label><br />
+        <div class="btn" aria-label="Basic mixed styles example">
+            <button type="button" class="btn">M</button>
+            <button type="button" class="btn ">E</button>
+            <button type="button" class="btn ">E</button>
+            <button type="button" class="btn ">N</button>
+            <button type="button" class="btn ">K</button>
+            <button type="button" class="btn ">E</button>
+            <br />
+            <br />
+            <label >Buttons For Plant letters</label>
+      
 
-
-<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-  <div class="btn-group me-2" role="group" aria-label="First group">
-  <button type="button" class="btn btn-success">M</button>
-  <button type="button" class="btn btn-success">E</button>
-  <button type="button" class="btn btn-success">E</button>
-</div>
-  <div class="btn-group me-2" role="group" aria-label="Second group">
-  <button type="button" class="btn btn-warning">N</button>
-  <button type="button" class="btn btn-warning">K</button>
-</div>
-<div class="btn-group" role="group" aria-label="Third group">
-<button type="button" class="btn btn-danger">E</button>
-</div>
-</div>
-
+      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group me-2" role="group" aria-label="First group">
+        <button type="button" class="btn btn-success">M</button>
+        <button type="button" class="btn btn-success">E</button>
+        <button type="button" class="btn btn-success">E</button>
+      </div>
+        <div class="btn-group me-2" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-warning">N</button>
+        <button type="button" class="btn btn-warning">K</button>
+      </div>
+    <div class="btn-group" role="group" aria-label="Third group">
+    <button type="button" class="btn btn-danger">E</button>
+    </div>
+  </div>
 <Dropdown>
   <div class="dropdown">
    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
@@ -155,7 +195,7 @@
     <button class="btn btn-primary">Submit</button>
         
     </form>
-
+    <label class="form-check-label">Bonus</label>
     <Cards>
       <div class="card-group container" style="width: 50rem;">
        <div class="card">
@@ -191,6 +231,6 @@
         </div>
     </div>
 
-
+  </body>
 
 </html>
